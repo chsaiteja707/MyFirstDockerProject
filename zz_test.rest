@@ -1,0 +1,24 @@
+GET  mongodb://172.17.0.2:27017/favorites
+Content-Type: application/json
+###
+POST http://mongodb://172.17.0.2:27017/favorites
+Content-Type: application/json
+
+{
+    "name":"sai",
+    "type":"movie",
+    "url":"app.json.com"
+}
+
+###
+GET  http://localhost:5000/favorites
+Content-Type: application/json
+###
+POST http://localhost:5000/favorites
+Content-Type: application/json
+
+{
+    "name":"sai",
+    "type":"movie",
+    "url":"app.json.com"
+}

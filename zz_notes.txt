@@ -1,0 +1,10 @@
+## docker prune is used to remove all unused container
+
+## unlike docker volume docker network command won't create the containers automatically
+
+## command to create new network
+sudo docker network create network1
+
+## this network will ensure that we don't need to hardcode the ip adress details 
+
+## after adding a network in url instead of localhost we can keep other container name which we want to access
